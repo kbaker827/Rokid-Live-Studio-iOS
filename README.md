@@ -2,7 +2,15 @@
 
 > Stream your Rokid AR glasses camera and microphone to YouTube and Twitch directly from your iPhone.
 
-An iOS port of [Rokid Live Studio](https://github.com/Anezium/Rokid-Live-Studio) (Android) by [@Anezium](https://github.com/Anezium). Built with SwiftUI, VideoToolbox, and a hand-rolled RTMP client — no third-party dependencies required.
+---
+
+> **Based on [Rokid Live Studio](https://github.com/Anezium/Rokid-Live-Studio) for Android by [@Anezium](https://github.com/Anezium).**
+> All original concepts, streaming architecture, the RLS1 binary protocol, and UI design belong to them.
+> This repo is an iOS port only — please star and credit the original project.
+
+---
+
+Built with SwiftUI, VideoToolbox, and a hand-rolled RTMP client — no third-party dependencies required.
 
 ---
 
@@ -166,10 +174,18 @@ Offset  Size  Field
 
 ---
 
-## Credits
+## Credits & Attribution
 
-- Original Android app: [Anezium/Rokid-Live-Studio](https://github.com/Anezium/Rokid-Live-Studio)
-- iOS port maintains full protocol and UI parity with the Android version
+This project would not exist without the original work by **[@Anezium](https://github.com/Anezium)**.
+
+| | |
+|---|---|
+| **Original project** | [Anezium/Rokid-Live-Studio](https://github.com/Anezium/Rokid-Live-Studio) |
+| **Original author** | [@Anezium](https://github.com/Anezium) |
+| **What was ported** | All streaming logic, RLS1 binary protocol, UI layout and color design, YouTube/Twitch OAuth flows, RTMP publish pipeline |
+| **What changed** | Rewritten in Swift/SwiftUI for iOS; Rokid CXR SDK replaced with manual IP connection (Android-only SDK) |
+
+If you find this useful, please give the original repo a ⭐ star at [github.com/Anezium/Rokid-Live-Studio](https://github.com/Anezium/Rokid-Live-Studio).
 
 ---
 
