@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA000001 /* RokidLiveStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000001 /* RokidLiveStudioApp.swift */; };
+		AA000002 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000002 /* AppState.swift */; };
+		AA000003 /* VideoPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000003 /* VideoPreset.swift */; };
+		AA000004 /* ProtocolModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000004 /* ProtocolModels.swift */; };
+		AA000005 /* YoutubeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000005 /* YoutubeModels.swift */; };
+		AA000006 /* TwitchModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000006 /* TwitchModels.swift */; };
+		AA000007 /* MediaIngressServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000007 /* MediaIngressServer.swift */; };
+		AA000008 /* VideoDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000008 /* VideoDecoder.swift */; };
+		AA000009 /* RtmpPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000009 /* RtmpPublisher.swift */; };
+		AA000010 /* YoutubeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000010 /* YoutubeApi.swift */; };
+		AA000011 /* YoutubeDeviceAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000011 /* YoutubeDeviceAuth.swift */; };
+		AA000012 /* TwitchApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000012 /* TwitchApi.swift */; };
+		AA000013 /* TwitchDeviceAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000013 /* TwitchDeviceAuth.swift */; };
+		AA000014 /* TwitchChatClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000014 /* TwitchChatClient.swift */; };
+		AA000015 /* YoutubeChatClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000015 /* YoutubeChatClient.swift */; };
+		AA000016 /* SecretStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000016 /* SecretStore.swift */; };
+		AA000017 /* PhoneScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000017 /* PhoneScreen.swift */; };
+		AA000018 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000018 /* HomeScreen.swift */; };
+		AA000019 /* YoutubeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000019 /* YoutubeScreen.swift */; };
+		AA000020 /* TwitchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000020 /* TwitchScreen.swift */; };
+		AA000021 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000021 /* SettingsScreen.swift */; };
+		AA000022 /* StudioComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000022 /* StudioComponents.swift */; };
+		AA000023 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000023 /* PreviewView.swift */; };
+		AA000024 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000024 /* Icons.swift */; };
+		AA000025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB000025 /* Assets.xcassets */; };
+		AA000026 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB000026 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB000001 /* RokidLiveStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RokidLiveStudioApp.swift; sourceTree = "<group>"; };
+		AB000002 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		AB000003 /* VideoPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreset.swift; sourceTree = "<group>"; };
+		AB000004 /* ProtocolModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolModels.swift; sourceTree = "<group>"; };
+		AB000005 /* YoutubeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeModels.swift; sourceTree = "<group>"; };
+		AB000006 /* TwitchModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitchModels.swift; sourceTree = "<group>"; };
+		AB000007 /* MediaIngressServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaIngressServer.swift; sourceTree = "<group>"; };
+		AB000008 /* VideoDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDecoder.swift; sourceTree = "<group>"; };
+		AB000009 /* RtmpPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RtmpPublisher.swift; sourceTree = "<group>"; };
+		AB000010 /* YoutubeApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeApi.swift; sourceTree = "<group>"; };
+		AB000011 /* YoutubeDeviceAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeDeviceAuth.swift; sourceTree = "<group>"; };
+		AB000012 /* TwitchApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitchApi.swift; sourceTree = "<group>"; };
+		AB000013 /* TwitchDeviceAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitchDeviceAuth.swift; sourceTree = "<group>"; };
+		AB000014 /* TwitchChatClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitchChatClient.swift; sourceTree = "<group>"; };
+		AB000015 /* YoutubeChatClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeChatClient.swift; sourceTree = "<group>"; };
+		AB000016 /* SecretStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretStore.swift; sourceTree = "<group>"; };
+		AB000017 /* PhoneScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneScreen.swift; sourceTree = "<group>"; };
+		AB000018 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		AB000019 /* YoutubeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeScreen.swift; sourceTree = "<group>"; };
+		AB000020 /* TwitchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitchScreen.swift; sourceTree = "<group>"; };
+		AB000021 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		AB000022 /* StudioComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioComponents.swift; sourceTree = "<group>"; };
+		AB000023 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		AB000024 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		AB000025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB000026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC000001 /* RokidLiveStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RokidLiveStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE000001 /* RokidLiveStudio */ = {
+			isa = PBXGroup;
+			children = (
+				AE000002 /* App */,
+				AE000003 /* Models */,
+				AE000004 /* Services */,
+				AE000005 /* Views */,
+				AE000006 /* Resources */,
+			);
+			path = RokidLiveStudio;
+			sourceTree = "<group>";
+		};
+		AE000002 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AB000001 /* RokidLiveStudioApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AE000003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB000002 /* AppState.swift */,
+				AB000003 /* VideoPreset.swift */,
+				AB000004 /* ProtocolModels.swift */,
+				AB000005 /* YoutubeModels.swift */,
+				AB000006 /* TwitchModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AE000004 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AB000007 /* MediaIngressServer.swift */,
+				AB000008 /* VideoDecoder.swift */,
+				AB000009 /* RtmpPublisher.swift */,
+				AB000010 /* YoutubeApi.swift */,
+				AB000011 /* YoutubeDeviceAuth.swift */,
+				AB000012 /* TwitchApi.swift */,
+				AB000013 /* TwitchDeviceAuth.swift */,
+				AB000014 /* TwitchChatClient.swift */,
+				AB000015 /* YoutubeChatClient.swift */,
+				AB000016 /* SecretStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AE000005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB000017 /* PhoneScreen.swift */,
+				AB000018 /* HomeScreen.swift */,
+				AB000019 /* YoutubeScreen.swift */,
+				AB000020 /* TwitchScreen.swift */,
+				AB000021 /* SettingsScreen.swift */,
+				AB000022 /* StudioComponents.swift */,
+				AB000023 /* PreviewView.swift */,
+				AB000024 /* Icons.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AE000006 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB000025 /* Assets.xcassets */,
+				AB000026 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AE000010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC000001 /* RokidLiveStudio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE000000 /* root */ = {
+			isa = PBXGroup;
+			children = (
+				AE000001 /* RokidLiveStudio */,
+				AE000010 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF000001 /* RokidLiveStudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AG000001 /* Build configuration list for PBXNativeTarget "RokidLiveStudio" */;
+			buildPhases = (
+				AH000001 /* Sources */,
+				AH000002 /* Resources */,
+				AD000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RokidLiveStudio;
+			productName = RokidLiveStudio;
+			productReference = AC000001 /* RokidLiveStudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AF000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AG000000 /* Build configuration list for PBXProject "RokidLiveStudio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE000000 /* root */;
+			productRefGroup = AE000010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF000001 /* RokidLiveStudio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AH000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000025 /* Assets.xcassets in Resources */,
+				AA000026 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AH000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000001 /* RokidLiveStudioApp.swift in Sources */,
+				AA000002 /* AppState.swift in Sources */,
+				AA000003 /* VideoPreset.swift in Sources */,
+				AA000004 /* ProtocolModels.swift in Sources */,
+				AA000005 /* YoutubeModels.swift in Sources */,
+				AA000006 /* TwitchModels.swift in Sources */,
+				AA000007 /* MediaIngressServer.swift in Sources */,
+				AA000008 /* VideoDecoder.swift in Sources */,
+				AA000009 /* RtmpPublisher.swift in Sources */,
+				AA000010 /* YoutubeApi.swift in Sources */,
+				AA000011 /* YoutubeDeviceAuth.swift in Sources */,
+				AA000012 /* TwitchApi.swift in Sources */,
+				AA000013 /* TwitchDeviceAuth.swift in Sources */,
+				AA000014 /* TwitchChatClient.swift in Sources */,
+				AA000015 /* YoutubeChatClient.swift in Sources */,
+				AA000016 /* SecretStore.swift in Sources */,
+				AA000017 /* PhoneScreen.swift in Sources */,
+				AA000018 /* HomeScreen.swift in Sources */,
+				AA000019 /* YoutubeScreen.swift in Sources */,
+				AA000020 /* TwitchScreen.swift in Sources */,
+				AA000021 /* SettingsScreen.swift in Sources */,
+				AA000022 /* StudioComponents.swift in Sources */,
+				AA000023 /* PreviewView.swift in Sources */,
+				AA000024 /* Icons.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AG000010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AG000011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AG000020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RokidLiveStudio/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anezium.rokidlive.phone.ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AG000021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RokidLiveStudio/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anezium.rokidlive.phone.ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AG000000 /* Build configuration list for PBXProject "RokidLiveStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AG000010 /* Debug */,
+				AG000011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AG000001 /* Build configuration list for PBXNativeTarget "RokidLiveStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AG000020 /* Debug */,
+				AG000021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = AF000000 /* Project object */;
+}
